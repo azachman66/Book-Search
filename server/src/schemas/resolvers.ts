@@ -15,9 +15,9 @@ interface LoginUserArgs {
   password: string;
 }
 
-interface UserArgs {
-  username: string;
-}
+// interface UserArgs {
+//   username: string;
+// }
 
 const resolvers = {
   Query: {
