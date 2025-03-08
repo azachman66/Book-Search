@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/googlebooks');
 
-export default mongoose.connection;
+//export default mongoose.connection;
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -17,4 +17,4 @@ const db = async (): Promise<typeof mongoose.connection> => {
   }
 };
 
-export default db;
+export default db
